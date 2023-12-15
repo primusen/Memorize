@@ -17,7 +17,6 @@ struct EmojiMemoryGameView: View {
     var body: some View {
         VStack {
             cards
-                .foregroundColor(.red)
             HStack {
                 Text("Score: \(viewModel.score)")
                     .animation(nil)
@@ -34,6 +33,8 @@ struct EmojiMemoryGameView: View {
         .padding()
     }
     
+    let lightPink = Color("lightPink")
+    
     private var cards: some View {
         AspectVGrid(viewModel.cards, aspectRatio: aspectRatio) { card in
             CardView(card)
@@ -45,7 +46,7 @@ struct EmojiMemoryGameView: View {
                     }
                 }
         }
-        .foregroundColor(Color.pink)
+        .foregroundColor(lightPink)
     }
     
     private func scoreChange(causedBy card: Card) -> Int {

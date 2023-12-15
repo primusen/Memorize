@@ -32,6 +32,8 @@ struct Cardify: ViewModifier, Animatable {
                 .opacity(isFaceUp ? 1 : 0)
             base.fill()
                 .opacity(isFaceUp ? 0 : 1)
+            base.strokeBorder(lineWidth: Constants.lineWidth)
+                .foregroundColor(.red)
         }
         .rotation3DEffect(.degrees(rotation), axis: (0, 1, 0))
     }
