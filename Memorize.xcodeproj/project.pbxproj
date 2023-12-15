@@ -17,6 +17,7 @@
 		82AF765A2B2CBD5800BD9CC5 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82AF76592B2CBD5800BD9CC5 /* CardView.swift */; };
 		82AF765C2B2CC43600BD9CC5 /* Pie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82AF765B2B2CC43600BD9CC5 /* Pie.swift */; };
 		82AF765E2B2CC50C00BD9CC5 /* Cardify.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82AF765D2B2CC50C00BD9CC5 /* Cardify.swift */; };
+		82AF76602B2CCDA900BD9CC5 /* FlyingNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82AF765F2B2CCDA900BD9CC5 /* FlyingNumber.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		82AF76592B2CBD5800BD9CC5 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		82AF765B2B2CC43600BD9CC5 /* Pie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pie.swift; sourceTree = "<group>"; };
 		82AF765D2B2CC50C00BD9CC5 /* Cardify.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cardify.swift; sourceTree = "<group>"; };
+		82AF765F2B2CCDA900BD9CC5 /* FlyingNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlyingNumber.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +72,7 @@
 				82AF76532B2C97E200BD9CC5 /* MemoryGame.swift */,
 				82AF76552B2C988B00BD9CC5 /* EmojiMemoryGame.swift */,
 				822DE28C2B2C859400457B8F /* EmojiMemoryGameView.swift */,
+				82AF765F2B2CCDA900BD9CC5 /* FlyingNumber.swift */,
 				822DE28A2B2C859400457B8F /* MemorizeApp.swift */,
 				822DE28E2B2C859600457B8F /* Assets.xcassets */,
 				822DE2902B2C859600457B8F /* Preview Content */,
@@ -157,6 +160,7 @@
 			files = (
 				822DE28D2B2C859400457B8F /* EmojiMemoryGameView.swift in Sources */,
 				822DE28B2B2C859400457B8F /* MemorizeApp.swift in Sources */,
+				82AF76602B2CCDA900BD9CC5 /* FlyingNumber.swift in Sources */,
 				82AF765E2B2CC50C00BD9CC5 /* Cardify.swift in Sources */,
 				82AF76542B2C97E200BD9CC5 /* MemoryGame.swift in Sources */,
 				82AF76582B2CB98D00BD9CC5 /* AspectVGrid.swift in Sources */,
